@@ -1,0 +1,94 @@
+ @import url ('https://fonts.google.com/specimen/Raleway?selection.family=Raleway:300,400');
+ @import url ('https://fonts.google.com/specimen/Hanuman?selection.family=Hanuman:300,400');
+ @font-face{
+     font-family: "Hanuman";
+    }
+ *{
+     box-sizing: border-box;
+     font-family: Raleway ;
+     color:#777
+ }
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.nav ul {
+    margin: 0;
+}
+.main-header{
+     background: rgba(0, 0, 0, .6);
+    background-image: url("téléchargement.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.nav li {
+    display: inline;
+}
+.nav a {
+    display:inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+}
+    .nav a:hover {
+        background-color: rgba(255, 255, 255, .3)
+    }
+.main-nav {
+    text-align: center;
+    font-size: 1.1em;
+    border-bottom: 1px solid rgba(255, 255, 255, .3)
+}
+    .main-nav li {
+        padding: 0 5%;
+    }
+.product-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family:"Hanuman";
+    color: white
+}
+.prodact-name-large{
+    font-size: 8em;
+}
+.container{
+    max-width: width 700px;;
+    margin: center ;
+    padding-right: 30px;
+    padding-left: 30px;
+    
+}
+
+.section-header{
+    font-family:'Hanuman';
+    font-weight: normal;
+    color: #333;
+    font-size: 2em;
+}
+.main-footer{
+    background: rgba(0, 0, 0, .6);
+    background-image: url("téléchargement.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 30px;
+
+}
+.footer-nav li{
+    padding:0 .5em;
+}
+.footer-nav img{
+    widows: 30px;
+    height: 30px;
+}
+.video-display{
+    display:inline-flex;
+    justify-content: space-around ;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left:100px;
+    
+}
+
